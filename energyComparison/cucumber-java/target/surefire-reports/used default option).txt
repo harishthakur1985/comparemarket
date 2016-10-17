@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: used default option)
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.657 sec <<< FAILURE! - in used default option)
+And I am on Supplier details page(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices.(used default option))  Time elapsed: 0.008 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.comparethemarket.energycomparison.stepdefs.EnergyComparisonStepDefs.i_am_on_page(EnergyComparisonStepDefs.java:59)
+	at ?.And I am on Supplier details page(features/EnergyComparisonFlow.feature:7)
+

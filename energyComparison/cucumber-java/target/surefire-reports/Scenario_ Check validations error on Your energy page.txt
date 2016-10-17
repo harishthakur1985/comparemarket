@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: Check validations error on Your energy page
+-------------------------------------------------------------------------------
+Tests run: 44, Failures: 0, Errors: 5, Skipped: 37, Time elapsed: 24.072 sec <<< FAILURE! - in Scenario: Check validations error on Your energy page
+Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices.(used default option)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.comparethemarket.energycomparison.stepdefs.EnergyComparisonStepDefs.i_am_on_page(EnergyComparisonStepDefs.java:59)
+	at ?.And I am on Supplier details page(features/EnergyComparisonFlow.feature:7)
+
+And I am on Supplier details page(Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.comparethemarket.energycomparison.stepdefs.EnergyComparisonStepDefs.i_am_on_page(EnergyComparisonStepDefs.java:59)
+	at ?.And I am on Supplier details page(features/EnergyComparisonFlow.feature:7)
+
+Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.comparethemarket.energycomparison.stepdefs.EnergyComparisonStepDefs.i_am_on_page(EnergyComparisonStepDefs.java:59)
+	at ?.And I am on Supplier details page(features/EnergyComparisonFlow.feature:7)
+
+And I am on Supplier details page(Scenario: Check validations error on Your energy page)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.comparethemarket.energycomparison.stepdefs.EnergyComparisonStepDefs.i_am_on_page(EnergyComparisonStepDefs.java:59)
+	at ?.And I am on Supplier details page(features/EnergyComparisonFlow.feature:7)
+
+Scenario: Check validations error on Your energy page  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.comparethemarket.energycomparison.stepdefs.EnergyComparisonStepDefs.i_am_on_page(EnergyComparisonStepDefs.java:59)
+	at ?.And I am on Supplier details page(features/EnergyComparisonFlow.feature:7)
+

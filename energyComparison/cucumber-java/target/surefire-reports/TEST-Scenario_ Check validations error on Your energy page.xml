@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Check validations error on Your energy page" time="0.012" tests="44" errors="5" skipped="37" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\haris\energyComparison\cucumber-java"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\haris\energyComparison\cucumber-java"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\haris\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\haris\energyComparison\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\haris\energyComparison\apache-maven-3.3.9\bin;C:\Users\haris\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\haris"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="BROWSER" value="firefox"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="haris"/>
+    <property name="java.class.path" value="C:\Users\haris\energyComparison\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -DBROWSER=firefox test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\haris\energyComparison\apache-maven-3.3.9\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices." classname="used default option" time="0.001">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.comparethemarket.energycomparison.stepdefs.EnergyComparisonStepDefs.i_am_on_page(EnergyComparisonStepDefs.java:59)
+	at ✽.And I am on Supplier details page(features/EnergyComparisonFlow.feature:7)
+</error>
+  </testcase>
+  <testcase name="And I add the postcode PE2 6YS(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices." classname="And I add the postcode PE2 6YS(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices.(used default option))" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I click next to go to energy details(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices." classname="Given I click next to go to energy details(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices.(used default option))" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background:                              &amp#27;[90m# features/EnergyComparisonFlow.feature:5&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to compare the market&amp#27;[0m &amp#27;[90m# EnergyComparisonStepDefs.i_navigate_to_compare_the_market()&amp#27;[0m
+    &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mI am on &amp#27;[0m&amp#27;[31m&amp#27;[1mSupplier details&amp#27;[0m&amp#27;[31m page&amp#27;[0m      &amp#27;[90m# EnergyComparisonStepDefs.i_am_on_page(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+      	at com.comparethemarket.energycomparison.stepdefs.EnergyComparisonStepDefs.i_am_on_page(EnergyComparisonStepDefs.java:59)
+      	at ?.And I am on Supplier details page(features/EnergyComparisonFlow.feature:7)
+      &amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI add the postcode &amp#27;[0m&amp#27;[36m&amp#27;[1mPE2 6YS&amp#27;[0m         &amp#27;[90m# EnergyComparisonStepDefs.i_add_the_postcode(String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="And I am on Energy details page(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices." classname="And I am on Energy details page(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices.(used default option))" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And electricity usage is 800(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices." classname="And electricity usage is 800(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices.(used default option))" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click on next to go to personal details(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices." classname="And I click on next to go to personal details(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices.(used default option))" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click on next to go to personal details(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices." classname="And I click on next to go to personal details(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices.(used default option))" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And gas usage is 700(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices." classname="And gas usage is 700(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices.(used default option))" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I am on personal details page(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices." classname="And I am on personal details page(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices.(used default option))" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I select tariff as Fixed(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices." classname="And I select tariff as Fixed(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices.(used default option))" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I select payment type monthly direct debit(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices." classname="And I select payment type monthly direct debit(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices.(used default option))" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter my email abc@de.com(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices." classname="And I enter my email abc@de.com(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices.(used default option))" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I tick the box of terms and condition(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices." classname="And I tick the box of terms and condition(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices.(used default option))" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I click on Go to prices(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices." classname="When I click on Go to prices(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices.(used default option))" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I am on prices result page(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices." classname="Then I am on prices result page(Scenario: Minimum required fields to be filled by user to complete journey for energy quotes/prices.(used default option))" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I navigate to compare the market" classname="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" time="0"/>
+  <testcase name="And I am on Supplier details page" classname="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" time="0.001">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.comparethemarket.energycomparison.stepdefs.EnergyComparisonStepDefs.i_am_on_page(EnergyComparisonStepDefs.java:59)
+	at ✽.And I am on Supplier details page(features/EnergyComparisonFlow.feature:7)
+</error>
+  </testcase>
+  <testcase name="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" classname="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" time="0.002">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.comparethemarket.energycomparison.stepdefs.EnergyComparisonStepDefs.i_am_on_page(EnergyComparisonStepDefs.java:59)
+	at ✽.And I am on Supplier details page(features/EnergyComparisonFlow.feature:7)
+</error>
+  </testcase>
+  <testcase name="And I add the postcode PE2 6YS" classname="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I have no bill" classname="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background:                              &amp#27;[90m# features/EnergyComparisonFlow.feature:5&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to compare the market&amp#27;[0m &amp#27;[90m# EnergyComparisonStepDefs.i_navigate_to_compare_the_market()&amp#27;[0m
+    &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mI am on &amp#27;[0m&amp#27;[31m&amp#27;[1mSupplier details&amp#27;[0m&amp#27;[31m page&amp#27;[0m      &amp#27;[90m# EnergyComparisonStepDefs.i_am_on_page(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+      	at com.comparethemarket.energycomparison.stepdefs.EnergyComparisonStepDefs.i_am_on_page(EnergyComparisonStepDefs.java:59)
+      	at ?.And I am on Supplier details page(features/EnergyComparisonFlow.feature:7)
+      &amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI add the postcode &amp#27;[0m&amp#27;[36m&amp#27;[1mPE2 6YS&amp#27;[0m         &amp#27;[90m# EnergyComparisonStepDefs.i_add_the_postcode(String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="And I want Gas energy comparison" classname="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I do not know current supplier" classname="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click next to go to energy details" classname="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I am on Energy details page" classname="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And gas current spend is 100" classname="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click on next to go to personal details" classname="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I am on personal details page" classname="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I select tariff as Variable" classname="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I select payment type quarterly direct debit" classname="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I enter my email abc@de.com" classname="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I agree to receive marketing communication" classname="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I tick the box of terms and condition" classname="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I click on Go to prices" classname="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I am on prices result page" classname="Scenario: Gas energy comparison with No bill, unknown supplier, variable tariff and quarterly direct debit" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I navigate to compare the market" classname="Scenario: Check validations error on Your energy page" time="0"/>
+  <testcase name="And I am on Supplier details page" classname="Scenario: Check validations error on Your energy page" time="0.003">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.comparethemarket.energycomparison.stepdefs.EnergyComparisonStepDefs.i_am_on_page(EnergyComparisonStepDefs.java:59)
+	at ✽.And I am on Supplier details page(features/EnergyComparisonFlow.feature:7)
+</error>
+  </testcase>
+  <testcase name="Scenario: Check validations error on Your energy page" classname="Scenario: Check validations error on Your energy page" time="0.005">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.comparethemarket.energycomparison.stepdefs.EnergyComparisonStepDefs.i_am_on_page(EnergyComparisonStepDefs.java:59)
+	at ✽.And I am on Supplier details page(features/EnergyComparisonFlow.feature:7)
+</error>
+  </testcase>
+  <testcase name="And I add the postcode PE2 6YS" classname="Scenario: Check validations error on Your energy page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I click next to go to energy details" classname="Scenario: Check validations error on Your energy page" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background:                              &amp#27;[90m# features/EnergyComparisonFlow.feature:5&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to compare the market&amp#27;[0m &amp#27;[90m# EnergyComparisonStepDefs.i_navigate_to_compare_the_market()&amp#27;[0m
+    &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mI am on &amp#27;[0m&amp#27;[31m&amp#27;[1mSupplier details&amp#27;[0m&amp#27;[31m page&amp#27;[0m      &amp#27;[90m# EnergyComparisonStepDefs.i_am_on_page(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+      	at com.comparethemarket.energycomparison.stepdefs.EnergyComparisonStepDefs.i_am_on_page(EnergyComparisonStepDefs.java:59)
+      	at ?.And I am on Supplier details page(features/EnergyComparisonFlow.feature:7)
+      &amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI add the postcode &amp#27;[0m&amp#27;[36m&amp#27;[1mPE2 6YS&amp#27;[0m         &amp#27;[90m# EnergyComparisonStepDefs.i_add_the_postcode(String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="And I am on Energy details page" classname="Scenario: Check validations error on Your energy page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I am on Energy details page" classname="Scenario: Check validations error on Your energy page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I click on next to go to personal details" classname="Scenario: Check validations error on Your energy page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then error message should appear &quot;Complete this section to continue 1 question remaining&quot;" classname="Scenario: Check validations error on Your energy page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And required field is highlighted with red outline" classname="Scenario: Check validations error on Your energy page" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
