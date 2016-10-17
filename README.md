@@ -2,7 +2,7 @@
 
 Getting Started
 
-Open the project comparethemarket-master/energyComparison/cucumber-java using eclipse.
+Open the project comparemarket-master/energyComparison/cucumber-java using eclipse.
 
 
 Prerequisities
@@ -26,7 +26,7 @@ Runnning the tests
 
 -Result report is generated on the following path
 
-	path : comparethemarket-master/energyComparison/target/cucumber-html-report/cucumber-pretty/index.html
+	path : comparemarket-master/energyComparison/target/cucumber-html-report/cucumber-pretty/index.html
 
 -The tests will be run in Firefox mozilla by default to run in chrome browser change the following
 	1) Open file energyComparison\cucumber-java\src\test\java\com\comparethemarket\energycomparison\stepdefs\BrowserDriver.java
