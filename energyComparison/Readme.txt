@@ -2,7 +2,7 @@
 
 Getting Started
 
-Open the project comparethemarket-master/energyComparison/cucumber-java using eclipse.
+Open the project comparemarket-master/energyComparison/cucumber-java using eclipse.
 
 
 Prerequisities
@@ -31,7 +31,10 @@ Runnning the tests
 -The tests will be run in Firefox mozilla by default to run in chrome browser change the following
 	1) Open file energyComparison\cucumber-java\src\test\java\com\comparethemarket\energycomparison\stepdefs\BrowserDriver.java
 	2) Comment line number 25 using // and uncomment line number 27-28 by removing //.
-	3) And rerun the tests.
+	3) line number 27 - replace "<PathToChromedriver>/energyComparison/chromedriver_win32/chromedriver.exe"
+	   with absolute path of the downloaded directory from git hub.
+	         eg. "C:/harish/download/energyComparison/chromedriver_win32/chromedriver.exe"
+	4) And rerun the tests.
 	
   
 Tests
